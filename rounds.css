@@ -1,0 +1,160 @@
+#csibutton{
+	width: 0px;
+	position: absolute;
+
+}
+#opt{
+	position: right;
+	padding: 0 5rem;
+	margin: 0 auto;
+	
+}
+.logo img{
+	position: relative;
+	top:16px;
+	bottom: 400px;
+	left:600px;
+	right:100px;
+margin-left: auto;
+margin-right: auto;
+width: 15%;
+opacity: 0.9;
+z-index:2;
+transition: transform ease-in-out 1s;
+
+}
+.logo img:hover{
+transform: scale(1.1) rotate(360deg);
+}
+.vacanza-svg{
+	margin: auto;
+width: 30%;
+}
+
+#opt{
+	color:white;
+	font-weight:700;
+	display: block;
+	padding: 11px 16px;
+	text-align: center;
+}
+header{
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+section{
+	background-color: #D3D3D3;
+}
+.rounds{
+	background-color: #D3D3D3;
+}
+.round1 {
+	border-style: outset;
+	padding: 20px;
+	margin: 50px 100px 50px 100px;
+	background-color: #FFFFF0;
+	
+}
+.round1para{
+	font-style: Courier;
+	font-size: 20px;
+	text-align: left;
+}
+}
+.round1heading{
+	font-style: arial black;
+}
+.button:hover{
+	color: pink;
+	padding: 2px;
+	border-radius: 25px;
+}
+.img{
+	float: right;
+}
+.round2para{
+	font-style: Courier;
+	text-align: left;
+	font-size: 20px;
+}
+.round2heading{
+	font-style: arial black;
+}
+.round2{
+	border-style: outset;
+	padding: 10px;
+	margin: 50px 100px 50px 100px;
+	background-color: #FFFFF0;
+	
+}
+.round3{
+	border-style: outset;
+	padding: 20px;
+	margin: 50px 100px 50px 100px;
+    background-color: #FFFFF0;
+}
+.rule-button{
+  border-radius: 5px;
+  border: 2px solid green;
+  padding: 2px; 
+  width: 20px;
+  height: 15px;
+  }
+.rule-button:hover{
+	background-color: green;
+}
+ 
+.regbutton {
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: auto;
+  align-items: center;
+}
+span{
+	text-decoration-color: black;
+}
+.regbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.regbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.regbutton:hover span {
+  padding-right: 25px;
+}
+
+.regbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+.regbutton{
+     perspective-origin: 30px;}
+
+#icons{
+	margin: auto;
+	width: 40%;
+}
+#base{
+	background-image: url("footer.png");
+}
+}
